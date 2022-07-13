@@ -1,2 +1,2 @@
 # serial-generator
-generate product serial based on date
+generate product serial number based on date
