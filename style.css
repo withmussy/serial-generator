@@ -1,0 +1,49 @@
+body {
+  overflow: hidden;
+  -webkit-app-region: drag;
+}
+
+* {
+ padding: 0; 
+ margin: 0;
+ box-sizing: border-box;
+ user-select: none;
+}
+
+#container {
+  background-color: rgba(0, 0, 0, .95) ;
+  border-radius:10px ;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin: 23px;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, .8);
+}
+
+#date {
+  font-size: 23px; 
+  text-align:center;
+  margin: 13px 0; 
+  color: #fff;
+}
+
+#serial {
+  font-size: 40px; 
+  background-color: yellow ;
+  padding: 3px 13px;
+  border-radius: 10px;
+  font-weight:bold;
+  text-align:center;
+}
+
+#copy {
+  color: #6d6d6d;
+  margin: 15px 0;
+  user-select: auto;
+}
+
+#copy a {
+  text-decoration: none ;
+  color: #fff;
+}
